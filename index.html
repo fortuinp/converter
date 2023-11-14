@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>converter</title>
+</head>
+<body>
+    <!-- <div class="container">
+    <p>
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+        oninput="temperatureConverter(this.value)"
+        onchange="temperatureConverter(this.value)">
+      </p>
+      <p>Celsius: <span id="outputCelsius"></span></p>
+
+    </div> -->
+
+
+
+    <div class="container">
+         <p></p>
+        <h1>Temperature Converter</h1>
+      <div class="row">
+        <button id="celciusBtn">Convert temp to C:</button>
+        <input type="number" data-f id="fahrenheit" required placeholder="enter temp in F">
+        </div>
+      <div>
+        <button id="fahrenheitBtn">Convert temp to F:</button>
+        <input type="number" data-c id="celcius" required placeholder="enter temp in C">
+        <h1  > Result : <span id="output"></span></h1>
+       
+     </div>
+     
+ <script src="./script/code.js"></script> 
+</body>
+</html>
